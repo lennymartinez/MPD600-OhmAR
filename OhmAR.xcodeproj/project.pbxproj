@@ -15,6 +15,9 @@
 		4D0EC5C0208F820B009C08B1 /* OhmARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC5BF208F820B009C08B1 /* OhmARTests.swift */; };
 		4D0EC5CB208F820C009C08B1 /* OhmARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0EC5CA208F820C009C08B1 /* OhmARUITests.swift */; };
 		4D0EC5DD208F87B9009C08B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D0EC5DC208F87B9009C08B1 /* Main.storyboard */; };
+		A0201B732094F943004CA62B /* 1Amp.png in Resources */ = {isa = PBXBuildFile; fileRef = A0201B702094F942004CA62B /* 1Amp.png */; };
+		A0201B742094F943004CA62B /* 2Amp.png in Resources */ = {isa = PBXBuildFile; fileRef = A0201B712094F943004CA62B /* 2Amp.png */; };
+		A0201B752094F943004CA62B /* 4Amp.png in Resources */ = {isa = PBXBuildFile; fileRef = A0201B722094F943004CA62B /* 4Amp.png */; };
 		A0A9F0C72093970700C88FE5 /* itemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A9F0C62093970700C88FE5 /* itemCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +53,9 @@
 		4D0EC5CA208F820C009C08B1 /* OhmARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OhmARUITests.swift; sourceTree = "<group>"; };
 		4D0EC5CC208F820C009C08B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4D0EC5DC208F87B9009C08B1 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A0201B702094F942004CA62B /* 1Amp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1Amp.png; sourceTree = "<group>"; };
+		A0201B712094F943004CA62B /* 2Amp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2Amp.png; sourceTree = "<group>"; };
+		A0201B722094F943004CA62B /* 4Amp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4Amp.png; sourceTree = "<group>"; };
 		A0A9F0C62093970700C88FE5 /* itemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = itemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +115,9 @@
 				4D0EC5B3208F820B009C08B1 /* LaunchScreen.storyboard */,
 				4D0EC5B6208F820B009C08B1 /* Info.plist */,
 				A0A9F0C62093970700C88FE5 /* itemCell.swift */,
+				A0201B702094F942004CA62B /* 1Amp.png */,
+				A0201B712094F943004CA62B /* 2Amp.png */,
+				A0201B722094F943004CA62B /* 4Amp.png */,
 			);
 			path = OhmAR;
 			sourceTree = "<group>";
@@ -240,6 +249,9 @@
 			files = (
 				4D0EC5AB208F820B009C08B1 /* art.scnassets in Resources */,
 				4D0EC5DD208F87B9009C08B1 /* Main.storyboard in Resources */,
+				A0201B732094F943004CA62B /* 1Amp.png in Resources */,
+				A0201B752094F943004CA62B /* 4Amp.png in Resources */,
+				A0201B742094F943004CA62B /* 2Amp.png in Resources */,
 				4D0EC5B5208F820B009C08B1 /* LaunchScreen.storyboard in Resources */,
 				4D0EC5B2208F820B009C08B1 /* Assets.xcassets in Resources */,
 			);

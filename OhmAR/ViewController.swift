@@ -57,8 +57,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     // dynamically add a 3d model item based off which button is selected
     func addItem(hitTestResult: ARHitTestResult) {
         if let selectedItem = self.selectedItem {
-            let image = UIImage(named:"Assets.xcassets/\(selectedItem).imageset/\(selectedItem).png")
-            //8.5 inches x 11 inches
+            //let image = UIImage(named:"Assets.xcassets/\(selectedItem).imageset/\(selectedItem).png")
+            let image = UIImage(named:"\(selectedItem).png")
             let node = SCNNode(geometry: SCNPlane(width:0.092, height: 0.167))
             node.geometry?.firstMaterial?.diffuse.contents = image
             let transform = hitTestResult.worldTransform
