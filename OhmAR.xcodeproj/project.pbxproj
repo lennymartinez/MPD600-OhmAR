@@ -112,6 +112,7 @@
 				4D0EC5AC208F820B009C08B1 /* ViewController.swift */,
 				4D0EC5DC208F87B9009C08B1 /* Main.storyboard */,
 				4D0EC5B1208F820B009C08B1 /* Assets.xcassets */,
+				A00BFA6B2097B89D00A04455 /* Current */,
 				4D0EC5B3208F820B009C08B1 /* LaunchScreen.storyboard */,
 				4D0EC5B6208F820B009C08B1 /* Info.plist */,
 				A0A9F0C62093970700C88FE5 /* itemCell.swift */,
@@ -138,6 +139,13 @@
 				4D0EC5CC208F820C009C08B1 /* Info.plist */,
 			);
 			path = OhmARUITests;
+			sourceTree = "<group>";
+		};
+		A00BFA6B2097B89D00A04455 /* Current */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Current;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

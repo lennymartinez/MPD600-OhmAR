@@ -17,6 +17,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     @IBOutlet var sceneView: ARSCNView!
     let configuration = ARWorldTrackingConfiguration()
     var selectedItem: String?
+    let imageName = "1Amp.png"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +34,10 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         self.registerGestureRecognizers()
         // add some lighting to the object
         self.sceneView.autoenablesDefaultLighting = true
-        
+        let image = UIImage(named: imageName)
+        let imageView = UIImageView(image: image!)
+        imageView.frame = CGRect(x: 50, y: 50, width: 262, height: 474)
+        view.addSubview(imageView)
     }
    
     override func didReceiveMemoryWarning() {
@@ -59,6 +63,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         if let selectedItem = self.selectedItem {
             //let image = UIImage(named:"Assets.xcassets/\(selectedItem).imageset/\(selectedItem).png")
             let image = UIImage(named:"\(selectedItem).png")
+            //let image = #imageLiteral(resourceName: "\(sele2Amp.png")
             let node = SCNNode(geometry: SCNPlane(width:0.092, height: 0.167))
             node.geometry?.firstMaterial?.diffuse.contents = image
             let transform = hitTestResult.worldTransform
