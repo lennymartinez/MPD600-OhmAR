@@ -34,6 +34,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
         self.registerGestureRecognizers()
         // add some lighting to the object
         self.sceneView.autoenablesDefaultLighting = true
+        
+        
         let image = UIImage(named: imageName)
         let imageView = UIImageView(image: image!)
         imageView.frame = CGRect(x: 50, y: 50, width: 262, height: 474)
